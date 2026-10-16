@@ -1,0 +1,28 @@
+{
+  "steps": [
+    {
+      "id": "1",
+      "label": "Charge laptop before class"
+    },
+    {
+      "id": "2",
+      "label": "Review yesterday's API notes"
+    },
+    {
+      "id": "3",
+      "label": "Pack headphones for lab work"
+    },
+    {
+      "id": "4",
+      "label": "Check emulator is still working"
+    },
+    {
+      "id": "5",
+      "label": "Open the local backend terminal"
+    },
+    {
+      "id": "6",
+      "label": "Confirm the retry path after an error"
+    }
+  ]
+}

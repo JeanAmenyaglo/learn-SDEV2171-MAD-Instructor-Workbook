@@ -1,0 +1,116 @@
+{
+  "users": [
+    {
+      "id": "user_seed_001",
+      "name": "Student One",
+      "email": "student1@example.com",
+      "passwordHash": "$2b$10$GVInFO08JqfkxiqvlsCpfe/KVApLud1JvtpUoLi18B1ix9Ng/Xmke",
+      "createdAt": "2026-03-01T12:00:00.000Z"
+    }
+  ],
+  "entries": [
+    {
+      "id": 1,
+      "userId": "user_seed_001",
+      "date": "2026-02-10",
+      "title": "Downtown lunch delivery",
+      "category": "Food Delivery",
+      "value": 24.5,
+      "rating": 4,
+      "notes": "Busy lunch rush and quick handoff",
+      "details": {
+        "platform": "SwiftDrop",
+        "location": "Downtown",
+        "durationMinutes": 55
+      }
+    },
+    {
+      "id": 2,
+      "userId": "user_seed_001",
+      "date": "2026-02-11",
+      "title": "Three-item personal shopping run",
+      "category": "Personal Shopper",
+      "value": 31.75,
+      "rating": 5,
+      "notes": "Good tip and short checkout line",
+      "details": {
+        "platform": "CartRunner",
+        "location": "North Mall",
+        "durationMinutes": 48
+      }
+    },
+    {
+      "id": 3,
+      "userId": "user_seed_001",
+      "date": "2026-02-12",
+      "title": "Logo revision for local cafe",
+      "category": "Freelance Design",
+      "value": 85,
+      "rating": 3,
+      "notes": "Revision scope increased after kickoff",
+      "details": {
+        "platform": "FreelanceHub",
+        "clientType": "Local Business",
+        "durationMinutes": 120
+      }
+    }
+  ],
+  "sample-entries": [
+    {
+      "id": 101,
+      "date": "2026-02-08",
+      "title": "Morning grocery pickup",
+      "category": "Personal Shopper",
+      "value": 19.25,
+      "rating": 4,
+      "notes": "Short wait at store",
+      "details": {
+        "platform": "CartRunner",
+        "location": "West Market",
+        "durationMinutes": 35
+      }
+    },
+    {
+      "id": 102,
+      "date": "2026-02-09",
+      "title": "Evening meal delivery block",
+      "category": "Food Delivery",
+      "value": 42.5,
+      "rating": 5,
+      "notes": "High demand during dinner rush",
+      "details": {
+        "platform": "SwiftDrop",
+        "location": "Central District",
+        "durationMinutes": 90
+      }
+    },
+    {
+      "id": 103,
+      "date": "2026-02-10",
+      "title": "Product photo retouch set",
+      "category": "Freelance Design",
+      "value": 60,
+      "rating": 4,
+      "notes": "Client provided clean source files",
+      "details": {
+        "platform": "FreelanceHub",
+        "clientType": "Online Store",
+        "durationMinutes": 80
+      }
+    },
+    {
+      "id": 104,
+      "date": "2026-02-11",
+      "title": "Late-night pharmacy delivery",
+      "category": "Food Delivery",
+      "value": 16.75,
+      "rating": 3,
+      "notes": "Apartment access slowed down drop-off",
+      "details": {
+        "platform": "SwiftDrop",
+        "location": "Southside",
+        "durationMinutes": 28
+      }
+    }
+  ]
+}
